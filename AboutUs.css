@@ -1,0 +1,30 @@
+body {
+    background-color: rgb(232, 233, 235);
+  }
+  
+  .header {
+    box-sizing: border-box;
+    border: 10px solid rgb(49, 54, 56);
+    text-align: center;
+    flex-direction: column;
+    background-color: rgb(49, 54, 56);
+    color: rgb(232, 233, 235);
+    width: 100%;
+    height: 100%;
+  }
+  
+  nav {
+    justify-content: space-around;
+    display: flex;  
+  }
+  
+  
+  
+  nav a {
+    color: rgb(0, 0, 0);
+  }
+  
+  nav a:hover{  
+  color: rgb(255, 255, 255);
+  }
+  
