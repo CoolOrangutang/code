@@ -1,0 +1,59 @@
+body {
+  margin: 0%;
+  display: grid;
+  grid-template-rows: 20% 60% 20%;
+  grid-template-columns: 7.5% 85% 7.5%;
+  background-color: rgb(110, 1, 110);
+  height: 100vh;
+}
+
+header {
+  grid-column: 1 / -1;
+  background-color: purple;
+  display: flex;
+}
+
+aside.left {
+  background-color: green);
+}
+
+main {
+  background-color: white;
+  margin: 5px;
+  padding:10px;
+  display: grid;
+  grid-template-rows: 20% 60% 20%; 
+  grid-template-columns: 7.5% 85% 7.5%;
+}
+
+button {
+  width: 50px;
+  height: 50px;
+  align-items: center;
+}
+
+button:hover {
+  background-color: red;
+  transform: scale(1.1);
+}
+
+aside.right {
+  background-color: yellow;
+}
+
+aside.left{
+  background-color: cadetblue;
+}
+
+footer {
+  grid-column: -1 / 1;
+  background-color: blue;
+}
+
+p.Namn {
+  text-align: center;
+}
+
+.Click{
+
+}
