@@ -64,6 +64,7 @@ body {
   height: 100px;
   width: fit-content;
   align-self: center;
+  border-radius: 10px;
 }
 
 h4 {
