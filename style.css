@@ -29,6 +29,7 @@
   font-size: 40px;
   color: black;
   padding-top: 20px;
+  height: fit-content;
 }
 
 .BreadDiv {
@@ -100,14 +101,20 @@ footer {
   text-align: center;
 }
 
-@media (min-with: 800px) {
-  .titel {
+@media (max-width: 800px) {
+  .TeemoQ {
     font-size: 40px;
   }
 }
 
-@media (min-with: 600px) {
-  .titel {
+@media (max-width: 600px) {
+  .TeemoQ {
     font-size: 20px;
+  }
+}
+
+@media (max-width: 800px) {
+  .grid {
+    display: initial;
   }
 }
