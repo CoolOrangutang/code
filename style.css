@@ -12,9 +12,8 @@ body {
 .titel {
   color: white;
   text-align: center;
-  margin-top: 0%;
-  margin-bottom: 20px;
   font-size: 80px;
+  margin-top: 0%;
 }
 
 .Quote1 {
@@ -34,7 +33,7 @@ body {
 
 .BreadDiv {
   width: 100%;
-  height: 50px;
+  height: fit-content;
 }
 
 .BreadText {
@@ -42,11 +41,12 @@ body {
   font-size: 15px;
   text-align: center;
   padding-top: 10px;
-  padding-bottom: 50px;
 }
 
 .TeemoIMG {
-  size: 20%;
+  height: 70%;
+  width: 70%;
+  align-items: center;
 }
 
 .divider1 {
@@ -77,6 +77,8 @@ h4 {
   padding: 1em;
   display: grid;
   grid-template-columns: 50% 50%;
+  padding: 10px;
+  width: fit-content;
 }
 
 .grid > div:nth-child(odd) {
@@ -90,4 +92,8 @@ footer {
   width: 100%;
   height: 40px;
   background: #2ecc71;
+}
+
+.comentar {
+  text-align: center;
 }
