@@ -1,12 +1,12 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 .header_div {
   background-color: #2ecc71;
   width: 100%;
   height: 100px;
-}
-
-body {
-  margin: 0;
-  padding: 0;
 }
 
 .titel {
@@ -41,6 +41,8 @@ body {
   font-size: 15px;
   text-align: center;
   padding-top: 10px;
+  width: fit-content;
+  height: fit-content;
 }
 
 .TeemoIMG {
@@ -96,4 +98,16 @@ footer {
 
 .comentar {
   text-align: center;
+}
+
+@media (min-with: 800px) {
+  .titel {
+    font-size: 40px;
+  }
+}
+
+@media (min-with: 600px) {
+  .titel {
+    font-size: 20px;
+  }
 }
