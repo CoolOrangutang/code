@@ -46,6 +46,7 @@ body {
 }
 
 .TeemoIMG {
+  size: 20%;
 }
 
 .divider1 {
@@ -64,7 +65,7 @@ body {
   height: 100px;
   width: fit-content;
   align-self: center;
-  border-radius: 10px;
+  border-radius: 6px;
 }
 
 h4 {
